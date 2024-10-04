@@ -103,8 +103,7 @@ rappel, (3) écrit dans le flux de sortie « Le résultat est
 rappel.
 
 ```ts
-add = decorate((n, m) => console.log(n + m));
+add = decorate((n, m) => n + m);
 add(1, 2);  // J'applique la fonction sur les arguments 1 2
-            // 3
             // Le résultat est 3
 ```
